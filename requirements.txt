@@ -5,7 +5,7 @@ python-dotenv
 pillow
 numpy
 pandas
-tensorflow
+tensorflow-cpu==2.12.0
 scikit-learn
 ultralytics
 requests
