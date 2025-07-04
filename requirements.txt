@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+jinja2
+python-dotenv
+pillow
+numpy
+pandas
+tensorflow
+scikit-learn
+ultralytics
+requests
+google-generativeai
