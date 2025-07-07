@@ -2,9 +2,9 @@ services:
   - type: web
     name: nutrition-predict-api
     env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: bash .render/build.sh
     startCommand: bash start.sh
+    plan: free
     envVars:
       - key: GEMINI_API_KEY
         value: AIzaSyB0bePVOwK-stx67SiQqf0EEpVJroP8LrE
